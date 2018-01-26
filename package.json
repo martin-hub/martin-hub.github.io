@@ -1,0 +1,59 @@
+{
+  "scripts": {
+    "build": "NODE_ENV=production webpack --config webpack.prod.js",
+    "test": "jest",
+    "test-watch": "npm run test -- --watch",
+    "webpack-watch": "NODE_ENV=development BABEL_ENV=development webpack --config webpack.dev.js --watch",
+    "start:dev": "NODE_ENV=development BABEL_ENV=development webpack-dev-server --config webpack.dev.js"
+  },
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-styled-components": "^1.5.0",
+    "babel-preset-react-app": "^3.0.3",
+    "copy-webpack-plugin": "^4.3.1",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "enzyme-to-json": "^3.1.4",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "jest": "^21.2.1",
+    "jest-styled-components": "^4.10.0",
+    "react-test-renderer": "^16.0.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "assets/js/**/*.{js,jsx}"
+    ],
+    "coverageDirectory": "jest-coverage",
+    "globals": {
+      "__DEV__": true
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "assets/js",
+      "test/assets/js"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testRegex": "/test/assets/js/.*\\.spec\\.jsx?$",
+    "transform": {
+      "^.+\\.jsx$": "babel-jest"
+    }
+  }
+}

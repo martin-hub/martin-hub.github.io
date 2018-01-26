@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item renders correctly 1`] = `
+.c3 {
+  display: block;
+  width: 100%;
+}
+
+.c8 {
+  color: #FEFEFC;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.c5 .c6 {
+  -webkit-flex: 0 1;
+  -ms-flex: 0 1;
+  flex: 0 1;
+  height: 80%;
+  padding: 0 16px;
+}
+
+.c5 .c7 {
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c0 {
+  position: relative;
+  background-color: black;
+  width: 900px;
+  max-width: 100%;
+  padding: 16px;
+}
+
+.c0 .c1 {
+  height: 100%;
+}
+
+.c0 .c4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width:120.0625em) {
+  .c5 .c7 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width:120em) {
+  .c5 .c7 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width:90em) {
+  .c5 .c7 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c5 .c7 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c5 .c7 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c0 {
+    width: 75%;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c0 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <a
+    className={undefined}
+    href="#"
+    title={undefined}
+  >
+    <div
+      className="c1 c2"
+    >
+      <img
+        className="c3"
+        src={undefined}
+      />
+      <div
+        className="c4 c5"
+      >
+        <img
+          className="c6 "
+          src="image/logo.png"
+        />
+        <div
+          className="c7 c8"
+        />
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Item renders correctly 2`] = `
+.c3 {
+  display: block;
+  width: 100%;
+}
+
+.c8 {
+  color: #FEFEFC;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.c5 .c6 {
+  -webkit-flex: 0 1;
+  -ms-flex: 0 1;
+  flex: 0 1;
+  height: 80%;
+  padding: 0 16px;
+}
+
+.c5 .c7 {
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c0 {
+  position: relative;
+  background-color: black;
+  width: 900px;
+  max-width: 100%;
+  padding: 16px;
+}
+
+.c0 .c1 {
+  height: 100%;
+}
+
+.c0 .c4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width:120.0625em) {
+  .c5 .c7 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width:120em) {
+  .c5 .c7 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width:90em) {
+  .c5 .c7 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c5 .c7 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c5 .c7 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c0 {
+    width: 75%;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c0 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <a
+    className={undefined}
+    href="#"
+    image="image/rnm.jpg"
+    title="Rick and Morty"
+  >
+    <div
+      className="c1 c2"
+    >
+      <img
+        className="c3"
+        src={undefined}
+      />
+      <div
+        className="c4 c5"
+      >
+        <img
+          className="c6 "
+          src="image/logo.png"
+        />
+        <div
+          className="c7 c8"
+        >
+          Rick and Morty
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`Item renders correctly 3`] = `
+.c3 {
+  display: block;
+  width: 100%;
+}
+
+.c8 {
+  color: #FEFEFC;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.c5 .c6 {
+  -webkit-flex: 0 1;
+  -ms-flex: 0 1;
+  flex: 0 1;
+  height: 80%;
+  padding: 0 16px;
+}
+
+.c5 .c7 {
+  -webkit-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c0 {
+  position: relative;
+  background-color: black;
+  width: 900px;
+  max-width: 100%;
+  padding: 16px;
+}
+
+.c0 .c1 {
+  height: 100%;
+}
+
+.c0 .c4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width:120.0625em) {
+  .c5 .c7 {
+    font-size: 55px;
+  }
+}
+
+@media (max-width:120em) {
+  .c5 .c7 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width:90em) {
+  .c5 .c7 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c5 .c7 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c5 .c7 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:75.625em) {
+  .c0 {
+    width: 75%;
+  }
+}
+
+@media (max-width:47.9375em) {
+  .c0 {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+<div
+  className="c0"
+>
+  <a
+    className="test-class"
+    href="#"
+    otherFakeAttr="fake-value"
+    title={undefined}
+  >
+    <div
+      className="c1 c2"
+    >
+      <img
+        className="c3"
+        src={undefined}
+      />
+      <div
+        className="c4 c5"
+      >
+        <img
+          className="c6 "
+          src="image/logo.png"
+        />
+        <div
+          className="c7 c8"
+        />
+      </div>
+    </div>
+  </a>
+</div>
+`;
